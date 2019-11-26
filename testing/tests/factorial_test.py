@@ -10,6 +10,9 @@ def test_factorial02():
 def test_factorial03():
     assert factorial.factorial(120)==5
 
+def test_factorial04():
+    assert factorial.factorial(150)=='none'
+
 def test_factorial05():
     assert factorial.factorial(3628800)==10
 
